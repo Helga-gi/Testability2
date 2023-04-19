@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Укажите рост в метрах: ");
         int weight = 98;
         System.out.println("Укажите вес в килограммах: ");
-        int bmi = service.calculate( height, weight );
+        int bmi = service.calculate(height, weight);
 
         System.out.println("Индекс: " + bmi);
     }
